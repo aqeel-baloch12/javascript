@@ -1,3 +1,3 @@
 # javascript
 javascript program 
-add javascript br and arithmetic oerator in js
+it cantain arithmetic comparision and assingment operator
