@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>javascript program</title>
+</head>
+<style>
+.aq{
+
+color:red;
+background-color:pink;
+}
+.ac{
+color:red;
+}
+.bs{
+color:red;
+background-color:pink;
+}
+
+</style>
+
+<body>
+
+
+<h1 class="ac">function in javascript </h1>
+<script type="text/javascript">
+function calculateArea(width,height)
+{
+area=width*height;
+return area;
+}
+</script>
+<form name="aqeel" action="">
+width:<input class="aq" type="text" name="width" size="5">
+height:<input class="aq" type="text" name="height" size="5">
+
+<input class="bs" type="button" value="submit" placeholder="calculate Area" 
+onclick="alert(calculateArea(document.aqeel.width.value,document.aqeel.height.value))">
+</form>
+
+<h1>return statement</h1>
+<script type="text/javascript">
+var x=parseInt(prompt("enter value of x:"));
+var y=parseInt(prompt("enter value of y"));
+function aqeel(x,y)
+{
+result=x*y;
+return result;
+}
+var answer=aqeel(x,y);
+document.write("value of x and y :" +answer);
+
+</script>
+
+<h1>if else if statement</h1>
+
+<script type="text/javascript">
+
+var marks=prompt("enter student marks");
+if(marks>=90 && marks<=100)
+{
+document.write("student grade A+");
+}
+else if (marks>=80 && marks<=90)
+{
+document.write("student grade A");
+}
+else if (marks>=70 && marks<=80)
+{
+document.write("student grade A");
+}
+else 
+{
+document.write("student is fail");
+}
+
+</script>
+
+<h1>while loop in javascript</h1>
+<script type="text/javascript">
+
+ i=1;
+ while(i<11)
+ {
+ document.write("2*" +i +"=" +(i*2) +("<br>"));
+ i++;
+ }
+
+</script>
+<h1>do while loop in javascript</h1>
+
+<script type="text/javascript">
+i=1;
+do
+{ 
+document.write("3*" +i +"=" +(i*3) +("<br>"));
+i++;
+}
+while(i<11)
+
+</script>
+<h1>for loop in javascript</h1>
+<script type="text/javascript">
+for(i=0;i<=10;i++)
+{
+document.write("4*" +i +"=" +(i*4) +("<br>"));
+}
+</script>
+<h1>onload in javascript</h1>
+<script type="text/javascript">
+function welcome()
+{
+alert("welcome to my website");
+}
+</script>
+<h1>onunload in javascript</h1>
+<script type="text/javascript">
+window.onbeforeunload=function ()
+{
+var massage="thank you visting our websitis";
+return massage;
+
+}
+</script>
+
+
+
+<h1>onclick in javascript</h1>
+<script type="text/javascript">
+function aqeel()
+{
+alert("welcome our pag");
+}
+</script>
+<input type="button" onclick="aqeel()" value="click me">
+
+<h1>ondblclick in javascript</h1>
+<script type="text/javascript">
+function hello()
+{
+alert("hi AQ baloch pag");
+}
+</script>
+<input type="button" ondblclick="hello()" value="push it">
+
+<h1>onmousedown and onmouseup in javascript</h1>
+
+<script type="text/javascript">
+function down()
+{
+document.body.style.color="red";
+}
+function up()
+{
+document.body.style.color="blue";
+}
+
+</script>
+
+<p onmousedown="down()" onmouseup="up()">hi this pag it can ahange by color by using different tag in javascript<p>
+
+<h1>onmouseover and onmouseout in javascript</h1>
+<script type="text/javascript">
+
+function over(a)
+{
+a.style.width="300px";
+a.style.height="200px";
+}
+function out(a)
+{
+a.style.width="190px";
+a.style.height="130px";
+}
+
+
+</script>
+
+<p>hi this aqeel baloch i am study in univeristy of education in bs cs</p>
+
+<img src="img/logo.jpeg" onmouseover="over(this)" onmouseout="out(this)">
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

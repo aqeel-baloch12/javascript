@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>onmousemove in js</title>
+<style>
+div{
+width:300px;
+height:150px;
+border:1px solid red;
+background-color:pink;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+<h1>onmousemove in javascript</h1>
+<script type="text/javascript">
+ 
+ function move(a)
+ {
+ var x=a.clientX;
+ var y=a.clientY;
+ var z="coordinates: ("+ x +", "+ y +")";
+ document.getElementById("one").innerHTML=z;
+ 
+ }
+ 
+</script>
+
+
+<div id="one" onmousemove="move(event)"></div>
+
+</body>
+
+
+
+</html>
